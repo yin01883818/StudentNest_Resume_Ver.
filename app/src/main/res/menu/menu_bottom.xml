@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainPageFragment"
+        android:title="@string/dashboard_title"
+        android:icon="@drawable/studentnesticon"
+        />
+    <item
+        android:id="@+id/studentHubFragment"
+        android:title="@string/student_hub_title"
+        android:icon="@drawable/studentnesticon"/>
+    <item
+        android:id="@+id/accountInfoFragment"
+        android:title="@string/user_info_title"
+        android:icon="@drawable/editpencil"
+        />
+</menu>

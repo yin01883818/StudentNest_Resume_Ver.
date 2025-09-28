@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">StudentNest</string>
+    <string name="accountCreatePrompt">Login/Create Account</string>
+    <string name="userNameHint">Enter email here</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="passwordHint">Enter password here</string>
+    <string name="continueNextScreen">Log In</string>
+    <string name="ContinueNextScreen_Sign">Sign up</string>
+    <string name="studentInfoLabel">Student Information Input</string>
+    <string name="studentNameLabel">Student Name:</string>
+    <string name="schoolName">School Name:</string>
+    <string name="mailingAddressLabel">Mailing Address:</string>
+    <string name="studentPhoneNumber">Phone Number:</string>
+    <string name="studentNameHint">Enter name here</string>
+    <string name="schoolNameHint">Enter school here</string>
+    <string name="mailingAddressHint">Enter mailing address here</string>
+    <string name="phoneNumberHint">Enter phone number here</string>
+    <string name="submitLabel">Submit</string>
+    <string name="regulatoryText">
+        Privacy and Security Notice \n\nWe are committed to protecting your personal information.
+        All sensitive data is encrypted during transmission and storage.
+        By using this application, you consent to the collection and of information.\n\nTerms of Use \n\nBy accessing or using this application, you agree to comply with and be bound by
+        the Terms and Conditions of Service. Unauthorized use of this system is prohibited
+        and may result in disciplinary or legal action.
+        \n\nAccuracy of Information \n\nWhile we strive to ensure the accuracy of the information provided through the application,
+        we do not guarantee the completeness, accuracy, or timeliness of the information. Any reliance
+        on the information provided is at your own risk.
+        \n\n
+
+    </string>
+
+    // main page strings
+    <string name="blank"> </string>
+    <string name="main_totalLoanAmount">Total Loan Amount</string>
+    <string name="main_monthlyLoanPayment">Total Monthly Loan Payment</string>
+    <string name="main_addLoanButtonDescription">add loan</string>
+    <string name="main_accountInfoButtonDescription">account information</string>
+    <string name="zero_dollars">$0.00</string>
+
+    // loan info strings
+    <string name="loan_title">Loan Name</string>
+    <string name="loan_originalLoanLabel">Original Loan</string>
+    <string name="loan_originalLoan">Loan Amount</string>
+    <string name="loan_interestRateLabel">Interest Rate % (per year)</string>
+    <string name="loan_interestRate">Interest Rate</string>
+    <string name="loan_loanTimeLabel">Loan Time</string>
+    <string name="loan_loanTime">Total Time</string>
+    <string name="loan_monthlyPaymentLabel">Monthly Payment</string>
+    <string name="loan_monthlyPayment">Pay per Month</string>
+    <string name="loan_paidOffLabel">% Paid Off</string>
+    <string name="loan_paidOff">% paid</string>
+    <string name="loan_timeRemainingLabel">Time Remaining</string>
+    <string name="loan_timeRemaining">Time Left</string>
+
+    // add loan strings
+    <string name="add_title">New Loan</string>
+    <string name="add_loanNameLabel">Loan Name</string>
+    <string name="add_interestRateLabel">Interest Rate %</string>
+    <string name="add_timeLabel">Time (Months)</string>
+    <string name="add_amountBorrowedLabel">Amount Borrowed</string>
+    <string name="add_saveAddButton">Save &amp; Add</string>
+    <string name="add_cancelButton">Cancel</string>
+
+    // account info strings
+    <string name="studentType">Student</string>
+    <string name="schoolEnrolledLabel">School Enrolled: </string>
+    <string name="descriptionForEdit">Edit specified value</string>
+    <string name="helpLabel">Help</string>
+
+    // notifications strings
+    <string name="notificationsLabel">Notifications</string>
+    <string name="trashDescription">Deletes Notifications</string>
+
+    // array for spinner in student hub
+    <string-array name="terms_array">
+        <item>Spring 2025</item>
+    </string-array>
+
+    // student hub strings
+    <string name="loansLabel">Loans</string>
+    <string name="addLoansLabel">Add Loans</string>
+    <string name="billingInfoLabel">Billing Info</string>
+
+    // bottom toolbar
+    <string name="dashboard_title">Dashboard</string>
+    <string name="student_hub_title">Student Hub</string>
+    <string name="user_info_title">User Info</string>
+</resources>

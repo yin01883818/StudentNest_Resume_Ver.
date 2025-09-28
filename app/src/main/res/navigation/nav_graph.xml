@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.mobileapp.studentnest.SignInFragment"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_mainPageFragment2"
+            app:destination="@id/mainPageFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_inputInfoFragment"
+            app:destination="@id/inputInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputInfoFragment"
+        android:name="com.mobileapp.studentnest.InputInfoFragment"
+        android:label="fragment_input_info"
+        tools:layout="@layout/fragment_input_info" />
+        <action
+            android:id="@+id/action_inputInfo_to_mainPage"
+            app:destination="@id/mainPageFragment" />
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.mobileapp.studentnest.mainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPageFragment_to_loanInfoFragment"
+            app:destination="@id/loanInfoFragment" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_addLoanFragment"
+            app:destination="@id/addLoanFragment" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_accountInfoFragment"
+            app:destination="@id/accountInfoFragment" />
+        <action
+            android:id="@+id/action_mainPageFragment_to_studentHubFragment"
+            app:destination="@id/studentHubFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentHubFragment"
+        android:name="com.mobileapp.studentnest.StudentHubFragment"
+        android:label="fragment_student_hub"
+        tools:layout="@layout/fragment_student_hub" >
+        <action
+            android:id="@+id/action_studentHubFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment" />
+        <action
+            android:id="@+id/action_studentHubFragment_to_addLoanFragment"
+            app:destination="@id/addLoanFragment" />
+        <action
+            android:id="@+id/action_studentHubFragment_to_accountInfoFragment"
+            app:destination="@id/accountInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loanInfoFragment"
+        android:name="com.mobileapp.studentnest.loanInfoFragment"
+        android:label="fragment_loan_info"
+        tools:layout="@layout/fragment_loan_info" >
+        <action
+            android:id="@+id/action_loanInfoFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLoanFragment"
+        android:name="com.mobileapp.studentnest.addLoanFragment"
+        android:label="fragment_add_loan"
+        tools:layout="@layout/fragment_add_loan" >
+        <action
+            android:id="@+id/action_addLoanFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment" />
+        <action
+            android:id="@+id/action_addLoanFragment_to_studentHubFragment"
+            app:destination="@id/studentHubFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountInfoFragment"
+        android:name="com.mobileapp.studentnest.accountInfoFragment"
+        android:label="fragment_account_info"
+        tools:layout="@layout/fragment_account_info" >
+        <action
+            android:id="@+id/action_accountInfoFragment_to_helpFragment"
+            app:destination="@id/helpFragment" />
+        <action
+            android:id="@+id/action_accountInfoFragment_to_inputInfoFragment"
+            app:destination="@id/inputInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.mobileapp.studentnest.notificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.mobileapp.studentnest.helpFragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

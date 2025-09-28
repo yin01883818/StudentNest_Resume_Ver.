@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentHubFragment"
+
+    >
+
+    <Spinner
+        android:id="@+id/semesterSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loansInfo"
+        android:layout_width="395dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="208dp"
+        android:background="@color/orange"
+        android:gravity="center|start"
+        android:text="@string/loansLabel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/semesterSpinner" />
+
+    <Button
+        android:id="@+id/addLoansButton"
+        android:layout_width="395dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="336dp"
+        android:background="@color/bright_blue"
+        android:gravity="center|start"
+        android:text="@string/addLoansLabel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/semesterSpinner" />
+
+    <Button
+        android:id="@+id/billingInfoButton"
+        android:layout_width="395dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="472dp"
+        android:background="@color/light_pink"
+        android:gravity="center|start"
+        android:text="@string/billingInfoLabel"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/semesterSpinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
